@@ -7,7 +7,7 @@ type ProjectInfoProps = {
 };
 
 function ProjectInfo({ projectInfo }: ProjectInfoProps) {
-  const { new: isNew, featured, title } = projectInfo;
+  const { /* new: isNew, featured, */ title } = projectInfo;
 
   return (
     <div className={styles["project-card-info"]}>
