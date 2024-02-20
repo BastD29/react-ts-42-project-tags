@@ -1,0 +1,70 @@
+$colors: (
+  "1": hsla(180, 28.9%, 50.4%, 1),
+  "2": hsl(180, 38.7%, 55.9%),
+  "3": hsl(0, 0%, 100%),
+  "4": hsl(180, 7.8%, 52.4%),
+  "5": hsl(180, 52.4%, 95.9%),
+  "6": hsla(180, 10%, 74%, 1),
+  "7": hsla(180, 28.9%, 50.4%, 0.1),
+  "white": hsl(0, 0%, 100%),
+  "black": hsla(180, 14%, 20%, 1),
+);
+
+$breakpoints: (
+  xs: 375px,
+  sm: 576px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px,
+  xxl: 1440px,
+);
+
+$font-sizes: (
+  h1: 15px,
+);
+
+// $theme: (
+//   "primary": hsl(202, 88%, 48%),
+//   "green": hsl(95, 100%, 38%),
+//   "light-peach": hsl(33, 100%, 85%),
+//   "peach": hsl(33, 98%, 75%),
+//   "red": hsl(350, 100%, 64%),
+//   "background": hsla(216, 20%, 95%, 1),
+// );
+
+// $grays: (
+//   "1": hsl(0, 0%, 100%),
+//   "2": hsl(0, 0%, 98%),
+//   "3": hsl(0, 0%, 96%),
+//   "4": hsl(0, 0%, 94%),
+//   "5": hsl(0, 0%, 85%),
+//   "6": hsl(0, 0%, 75%),
+//   "7": hsl(0, 0%, 55%),
+//   "8": hsl(0, 0%, 35%),
+//   "9": hsl(0, 0%, 26%),
+//   "10": hsl(0, 0%, 15%),
+//   "11": hsl(0, 0%, 12%),
+//   "12": hsl(0, 0%, 8%),
+//   "13": hsl(0, 0%, 0%),
+// );
+
+// $justify-content-values: (
+//   "flex-start",
+//   "flex-end",
+//   "center",
+//   "space-between",
+//   "space-around"
+// );
+
+// $align-items-values: (
+//   "stretch",
+//   "flex-start",
+//   "flex-end",
+//   "center",
+//   "baseline"
+// );
+
+// $auth-header-height: 230px;
+// $sidebar-width: 200px;
+// $header-height: 64px;
+// $footer-height: 75px;

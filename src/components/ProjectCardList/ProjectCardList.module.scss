@@ -1,0 +1,19 @@
+@use "../../style//variables" as variables;
+
+.project-card-list {
+  padding: 56px 0 34px 0;
+  background-color: map-get(variables.$colors, "5");
+  min-height: 100vh;
+  max-width: 1110px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  grid-gap: 40px;
+
+  @media (min-width: map-get(variables.$breakpoints, xxl)) {
+    // max-width: 1110px;
+    // margin: 0 auto;
+    padding: 56px 0 34px 0;
+  }
+}

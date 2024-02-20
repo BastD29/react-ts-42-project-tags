@@ -1,0 +1,17 @@
+@use "../../../../style/variables" as variables;
+
+.project-tags {
+  padding-top: 16px;
+
+  display: flex;
+  flex-direction: row;
+  grid-gap: 16px;
+  flex-wrap: wrap;
+
+  @media (min-width: map-get(variables.$breakpoints, lg)) {
+    padding-top: 0;
+
+    // float: right;
+    margin-left: auto;
+  }
+}

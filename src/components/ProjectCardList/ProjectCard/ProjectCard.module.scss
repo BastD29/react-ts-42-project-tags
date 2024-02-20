@@ -1,0 +1,37 @@
+@use "../../../style/variables" as variables;
+
+.project-card {
+  background-color: map-get(variables.$colors, "white");
+  border-radius: 5px;
+  padding: 32px 24px 27px 24px;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-left: solid 5px map-get(variables.$colors, "1");
+  position: relative;
+
+  @media (min-width: map-get(variables.$breakpoints, lg)) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-gap: 24px;
+
+    padding: 32px;
+  }
+
+  img {
+    width: 48px;
+    height: 48px;
+
+    position: absolute;
+    top: 0;
+    transform: translate(0%, -50%);
+
+    @media (min-width: map-get(variables.$breakpoints, lg)) {
+      width: 88px;
+      height: 88px;
+
+      position: static;
+      top: auto;
+      transform: none;
+    }
+  }
+}

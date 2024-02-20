@@ -1,0 +1,10 @@
+@use "../../style/variables" as variables;
+
+.app {
+  // @media (min-width: map-get(variables.$breakpoints, xxl)) {
+  //   max-width: 1110px;
+  //   margin: 0 auto;
+  // }
+
+  padding: 0 24px;
+}
