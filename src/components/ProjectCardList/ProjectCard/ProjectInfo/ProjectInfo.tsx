@@ -7,7 +7,7 @@ type ProjectInfoProps = {
 };
 
 function ProjectInfo({ projectInfo }: ProjectInfoProps) {
-  const { /* new: isNew, featured, */ title } = projectInfo;
+  const { /* new: isNew, featured, */ title, website, github } = projectInfo;
 
   return (
     <div className={styles["project-card-info"]}>
@@ -19,6 +19,24 @@ function ProjectInfo({ projectInfo }: ProjectInfoProps) {
           </span>
         )}
       </div> */}
+      <div className={styles["project-card-info__features"]}>
+        <a
+          href={github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles["project-card-info__github"]}
+        >
+          Github
+        </a>
+        <a
+          href={website}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles["project-card-info__website"]}
+        >
+          Website
+        </a>
+      </div>
       <h1>{title}</h1>
     </div>
   );

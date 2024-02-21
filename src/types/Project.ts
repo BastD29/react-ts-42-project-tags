@@ -1,6 +1,8 @@
 type ProjectType = {
   id: number;
   logo: string;
+  website: string;
+  github: string;
   new: boolean;
   featured: boolean;
   title: string;
@@ -14,11 +16,21 @@ type ProjectType = {
   stack?: string;
 };
 
-type ProjectInfoType = Pick<ProjectType, "new" | "featured" | "title">;
+type ProjectInfoType = Pick<
+  ProjectType,
+  "new" | "featured" | "title" | "website" | "github"
+>;
 
 type ProjectTagsType = Omit<
   ProjectType,
-  "new" | "featured" | "title" | "id" | "logo" | "postedAt"
+  | "new"
+  | "featured"
+  | "title"
+  | "id"
+  | "logo"
+  | "postedAt"
+  | "website"
+  | "github"
 >;
 
 export type { ProjectType, ProjectInfoType, ProjectTagsType };

@@ -21,7 +21,6 @@
     line-height: 24px;
 
     @media (min-width: map-get(variables.$breakpoints, lg)) {
-      // color: #5ca5a5;
       font-family: "League Spartan";
       font-size: 22px;
       font-style: normal;
@@ -30,14 +29,18 @@
     }
   }
 
-  // &__features {
-  //   display: flex;
-  //   flex-direction: row;
-  //   grid-gap: 8px;
-  // }
+  &__features {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 8px;
 
-  &__new,
-  &__featured {
+    a {
+      cursor: pointer;
+    }
+  }
+
+  &__github,
+  &__website {
     border-radius: 12px;
     padding: 4px 8px 2px 8px;
     text-align: center;
@@ -50,11 +53,11 @@
     color: map-get(variables.$colors, "white");
   }
 
-  &__new {
+  &__github {
     background-color: map-get(variables.$colors, "1");
   }
 
-  &__featured {
+  &__website {
     background-color: map-get(variables.$colors, "black");
   }
 }

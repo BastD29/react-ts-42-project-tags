@@ -15,6 +15,8 @@ function ProjectCard({ project, handleFilter }: ProjectCardProps) {
     logo,
     new: isNew,
     featured,
+    github,
+    website,
     title,
     end,
     level,
@@ -25,7 +27,7 @@ function ProjectCard({ project, handleFilter }: ProjectCardProps) {
     stack,
   } = project;
 
-  const projectInfo = { new: isNew, featured, title };
+  const projectInfo = { new: isNew, featured, title, github, website };
   const projectTags = { end, level, language, framework, baas, routing, stack };
 
   return (

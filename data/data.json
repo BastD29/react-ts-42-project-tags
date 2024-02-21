@@ -2,6 +2,8 @@
   {
     "id": 1,
     "logo": "./assets/images/photosnap.svg",
+    "website": "https://react-chat-rooms-dbcf8.web.app",
+    "github": "https://github.com/BastD29/react-ts-39-chat-rooms-with-firebase",
     "new": false,
     "featured": false,
     "title": "Chat rooms with firebase",
@@ -16,6 +18,8 @@
   {
     "id": 2,
     "logo": "./assets/images/manage.svg",
+    "website": "https://store-state-in-url.netlify.app/",
+    "github": "https://github.com/BastD29/react-ts-41-store-state-in-url-with-useSearchParams",
     "new": false,
     "featured": false,
     "title": "Store state in url",
@@ -28,6 +32,8 @@
   {
     "id": 3,
     "logo": "./assets/images/account.svg",
+    "website": "https://basic-todo-o6zm.onrender.com",
+    "github": "https://github.com/BastD29/mern-js-18-basic-todo",
     "new": false,
     "featured": false,
     "title": "Basic todo with MERN",
@@ -41,6 +47,8 @@
   {
     "id": 4,
     "logo": "./assets/images/myhome.svg",
+    "website": "https://basic-todo-app-f8fd9.web.app",
+    "github": "https://github.com/BastD29/react-ts-37-basic-todo-with-firebase",
     "new": false,
     "featured": false,
     "title": "Basic todo with Firebase",
@@ -54,6 +62,8 @@
   {
     "id": 5,
     "logo": "./assets/images/loop-studios.svg",
+    "website": "https://autocomplete-books.onrender.com/books",
+    "github": "https://github.com/BastD29/react-js-48-autocomplete-search",
     "new": false,
     "featured": false,
     "title": "Autocomplete",
@@ -66,6 +76,8 @@
   {
     "id": 6,
     "logo": "./assets/images/faceit.svg",
+    "website": "https://basic-todo-with-plain-react.netlify.app",
+    "github": "https://github.com/BastD29/react-ts-36-basic-todo",
     "new": false,
     "featured": false,
     "title": "Basic todo with plain React",
@@ -78,6 +90,8 @@
   {
     "id": 7,
     "logo": "./assets/images/shortly.svg",
+    "website": "https://infinite-scroll-with-react.netlify.app",
+    "github": "https://github.com/BastD29/react-ts-29-infinite-scroll",
     "new": false,
     "featured": false,
     "title": "Infinite scroll",
@@ -90,6 +104,8 @@
   {
     "id": 8,
     "logo": "./assets/images/insure.svg",
+    "website": "https://skeleton-with-react-and-css.netlify.app",
+    "github": "https://github.com/BastD29/react-ts-28-skeleton",
     "new": false,
     "featured": false,
     "title": "Skeleton loading",
@@ -102,6 +118,8 @@
   {
     "id": 9,
     "logo": "./assets/images/eyecam-co.svg",
+    "website": "https://auth-t5a0.onrender.com/signup",
+    "github": "https://github.com/BastD29/mern-js-15-auth-with-refresh-token",
     "new": false,
     "featured": false,
     "title": "Fullstack auth",
@@ -114,6 +132,8 @@
   {
     "id": 10,
     "logo": "./assets/images/the-air-filter-company.svg",
+    "website": "https://internationalization-afiu.onrender.com",
+    "github": "https://github.com/BastD29/mern-js-16-i18n-client-side-translation",
     "new": false,
     "featured": false,
     "title": "Internationalization",
