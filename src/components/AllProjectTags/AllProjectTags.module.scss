@@ -1,0 +1,31 @@
+@use "../../style/variables" as variables;
+
+.all-project-tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+  padding: 24px;
+
+  h1 {
+    color: map-get(variables.$colors, "black");
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+
+    @media (min-width: map-get(variables.$breakpoints, lg)) {
+      font-size: 22px;
+    }
+  }
+
+  &__tag-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-gap: 5px;
+  }
+}

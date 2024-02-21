@@ -1,12 +1,14 @@
 @use "../../style/variables" as variables;
 
 .header {
-  background-image: url("../../assets/images/bg-header-mobile.svg");
+  // background-image: url("../../assets/images/bg-header-mobile.svg");
+  background-image: url("./assets/images/bg-header-mobile.svg");
   background-color: map-get(variables.$colors, "1");
   height: 156px;
 
   @media (min-width: map-get(variables.$breakpoints, xs)) {
-    background-image: url("../../assets/images/bg-header-desktop.svg");
+    // background-image: url("../../assets/images/bg-header-desktop.svg");
+    background-image: url("./assets/images/bg-header-desktop.svg");
   }
 
   position: relative;
